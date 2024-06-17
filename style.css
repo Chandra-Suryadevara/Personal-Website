@@ -2,6 +2,36 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+/* Remove underline from links in nav */
+nav .logo a,
+nav .nav-links a,
+nav .menu-links a {
+  text-decoration: none; /* Remove underline by default */
+  color: inherit; /* Optional: inherit color from parent for consistency */
+}
+
+nav .logo a:hover,
+nav .nav-links a:hover,
+nav .menu-links a:hover {
+  text-decoration: none; /* Ensure no underline on hover */
+  color: inherit; /* Optional: maintain color on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -362,11 +392,27 @@ section {
   margin-bottom: 2rem;
 }
 
+.experience-sub-title2 {
+  color: rgb(0,0,0);
+  font-weight: 600;
+  font-size: 2.75rem;
+  margin-bottom: 2rem;
+}
+
 .experience-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
+
+.article-container2 {
+  display: inline;
+  text-align: center;
+  justify-content: space-around;
+
+}
+
+
 
 .article-container {
   display: flex;
@@ -375,6 +421,7 @@ section {
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
+  margin-bottom: 1rem;
 }
 
 article {
@@ -384,10 +431,29 @@ article {
   gap: 0.5rem;
 }
 
+
 article .icon {
   cursor: default;
 }
 
+article .para{
+  text-align: left;
+  
+  justify-content: start;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  white-space: nowrap;
+}
+
+article .icon2 {
+  cursor: default;
+  width: 6rem;
+  height:6rem;
+  margin-right: 3rem;
+
+}
+ 
 /* PROJECTS SECTION */
 
 #projects {
@@ -468,3 +534,5 @@ footer {
 footer p {
   text-align: center;
 }
+
+/* Blog page*/
