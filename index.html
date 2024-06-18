@@ -21,22 +21,28 @@
         </ul>
       </div>
     </nav>
+    
     <nav id="hamburger-nav">
-      <div class="logo">Chandra Suryadevara<a href="index.html">Chandra Suryadevara</a>ger-menu">
+      <div class="logo">Chandra Suryadevara</div>
+      <div class="hamburger-menu" onclick="toggleMenu()">
+        <div class="hamburger-icon">
           <span></span>
           <span></span>
           <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="blog.html" onclick="toggleMenu()" >Blog</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-          
         </div>
       </div>
+      <div class="menu-links">
+        <ul>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="blog.html" onclick="toggleMenu()">Blog</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+      </div>
     </nav>
+    
+    
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/headshot.jpeg" alt="Chandra Suryadevara profile picture" />
@@ -126,7 +132,7 @@
         src="./assets/logo/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#experience'"
+        onclick="document.querySelector('#experience').scrollIntoView({ behavior: 'smooth' })"
       />
     </section>
     <section id="experience">
@@ -261,14 +267,14 @@
           <h2 class="experience-sub-title2">Work In Progress</h2>
           <h2 class="experience-sub-title">AgroVision Robot</h2>
           <div class="article-container2">
-            <article>
-              <img
-                src="./assets/logo/robotarm.png"
-                alt="Experience icon"
-                class="icon2"
-              />
+            
+              
               
               <div class="para">
+                <img
+                src="./assets/logo/robotarm.png"
+                alt="Experience icon"
+              />
                 
                 <p>The AgroVision Robot is a robotic system built on ROS and powered by the NVIDIA Jetson Nano.
               It autonomously navigates agricultural environments, employing <br>deep learning and computer vision to detect diseases on plants.
@@ -277,7 +283,7 @@
               it navigates through the terrain with precision, avoiding obstacles <br> and efficiently covering large areas of crops.
                   </p>
               </div>
-            </article>
+            
           </div>
         </div>
       </div>
@@ -359,7 +365,7 @@
         src="./assets/logo/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#contact'"
+        onclick="window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })"
       />
     </section>
     <section id="contact">
@@ -387,16 +393,6 @@
       </div>
     </section>
     <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
       <p>Copyright &#169; 2024 Chandra Suryadevara. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
