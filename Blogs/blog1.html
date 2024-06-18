@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../blogstyle.css" />
+    <link rel="stylesheet" href="../mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"><a href="../index.html">Chandra Suryadevara</a></div>
+      <div>
+        <ul class="nav-links">
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../index.html#experience">Experience</a></li>
+            <li><a href="../blog.html">Blog</a></li>
+            <li><a href="../index.html#projects">Projects</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+          </ul>
+          
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo"><a href="../index.html">Chandra Suryadevara</a></div>
+      <div class="hamburger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+            <ul>
+              <li><a href="#about" onclick="toggleMenu()">About</a></li>
+              <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+              <li><a href="../blog.html">Blog</a></li>
+              <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+              <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+          </div>
+          
+      </div>
+    </nav>
+    <div class="Writer">
+        <img src="../assets/images/blog1.jpg" class="img" alt="what is ROS" />
+        <p><strong>Hello everyone!</strong> I have been working with ROS (Robot Operating System) for quite some time, let me break it down for you:</p>
+    
+        <h2>What is ROS?</h2>
+        <p>ROS, short for <strong>Robot Operating System</strong>, isn't your typical operating system like Windows or Linux. Instead, it's a collection of software tools and libraries designed for building and managing robot applications. Think of it as a toolbox that helps developers create and control robots.</p>
+        
+        <h2>Why Does ROS Matter?</h2>
+        <p><strong>Reusable Components:</strong> ROS provides pre-built components, so you don't have to reinvent the wheel. Whether you're working on a robot arm, a drone, or any other type of robot, ROS offers standardized building blocks.</p>
+        <p><strong>Community Support:</strong> There's a vibrant ROS community with tutorials, discussions, and resources to help you along the way.</p>
+        <p><strong>Open Source:</strong> Most of ROS's core packages are open source, making them accessible for various projects.</p>
+        
+        <h2>Applications:</h2>
+        <p><strong>Simulations:</strong> ROS allows you to create 3D simulations of robots, which is useful for testing and development.</p>
+        <p><strong>Research:</strong> Researchers use ROS to prototype and experiment with new robotics algorithms.</p>
+        <p><strong>Industry:</strong> Many commercial robots and autonomous systems rely on ROS for their software.</p>
+        
+        <h2>Additional Notes:</h2>
+        <p>Using ROS minimizes costs for projects by accurately simulating environments.</p>
+        <p>The main issue I’ve encountered with ROS is version compatibility among different projects and libraries.</p>
+        
+        <p>So, if you're diving into robotics, ROS is the <strong>best place to start your journey</strong> 🤖💡</p>
+
+    </div>
+
+
+  </body>
+
+</html>
