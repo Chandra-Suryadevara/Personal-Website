@@ -198,15 +198,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
-}
-
-.section__pic-container {
-  display: flex;
-  height: 400px;
-  width: 400px;
-  overflow: hidden;
-  border-radius: 15%;
+  height: 95vh;
 }
 
 .section__text {
@@ -223,6 +215,18 @@ section {
   font-size: 10rem;
   margin-bottom: 0px;
   
+}
+.titleexp{
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section__text__exp{
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 0px;
+  margin-top: 1rem;
 }
 .section__text__p2 {
   font-size: 1.75rem;
@@ -304,12 +308,15 @@ section {
 
 #about {
   position: relative;
+  margin-bottom: -6rem;
 }
 
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
 }
+
+
 
 .about-details-container {
   justify-content: center;
@@ -335,6 +342,7 @@ section {
   margin-top: 2rem;
 }
 
+
 .about-containers,
 .about-details-container {
   display: flex;
@@ -354,7 +362,10 @@ section {
   text-align: center;
 }
 
+
+
 .details-container {
+
   padding: 2.5rem;
   flex: 1;
   background: white;
@@ -364,6 +375,14 @@ section {
   text-align: center;
 }
 
+.details-container4 {
+  padding: 2.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: 0.1rem solid rgb(163, 163, 163);
+  text-align: center;
+}
 .section-container {
   gap: 4rem;
   height: 80%;
@@ -371,13 +390,14 @@ section {
 .title{
   margin-top: 30px;
 }
-.section__pic-container {
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
-}
 
-/* EXPERIENCE SECTION */
+.section__pic-container {
+  height: 625px;
+  width: 500px;
+  margin: auto 0;
+  overflow: hidden;
+  border-radius: 15%;
+}
 
 #experience {
   position: relative;
@@ -553,6 +573,3 @@ footer p {
  
   font-size: 14px;
 }
-
-
-

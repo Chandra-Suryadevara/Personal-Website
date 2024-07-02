@@ -15,8 +15,9 @@
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          
           <li><a href="#projects">Projects</a></li>
+          <li><a href="blog.html">Blog</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -35,8 +36,9 @@
         <ul>
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="blog.html" onclick="toggleMenu()">Blog</a></li>
+          
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="blog.html" onclick="toggleMenu()">Blog</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </ul>
       </div>
@@ -136,9 +138,9 @@
       />
     </section>
     <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
+      <p class="section__text__exp">Explore My</p>
+      <h1 class="titleexp">Experience</h1>
+      <div class="experience-details-container"fade>
         <div class="about-containers">
           <div class="details-container">
             <h2 class="experience-sub-title">Programming Languages</h2>
@@ -301,127 +303,93 @@
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
+      <div class="experience-details-container ">
+        <div class="about-containers4">
         <div class="about-containers">
-          <div class="details-container color-container">
+          <!-- First set of projects -->
+          <div class="details-container color-container ">
             <div class="article-container">
-              <img
-                src="./assets/gif/project1.gif"
-                alt="Project 1"
-                class="project-img"
-              />
+              <img src="./assets/gif/project1.gif" alt="Project 1" class="project-img" />
             </div>
             <h2 class="experience-sub-title project-title">NeuroVidGen</h2>
             <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Chandra-Suryadevara/NeuroVidGen-Time-Conditional-GANs-for-Rat-Neural-Imaging'"
-              >
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Chandra-Suryadevara/NeuroVidGen-Time-Conditional-GANs-for-Rat-Neural-Imaging'">
                 Github
               </button>
             </div>
           </div>
-          <div class="details-container color-container">
+          <div class="details-container color-container ">
             <div class="article-container">
-              <img
-                src="./assets/gif/game.gif"
-                alt="Project 2"
-                class="project-img"
-                style="width: 97%; height: auto;"
-              />
+              <img src="./assets/gif/game.gif" alt="Project 2" class="project-img" />
             </div>
             <h2 class="experience-sub-title project-title">Square Sprint</h2>
             <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Chandra-Suryadevara/Square-Sprint'"
-              >
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Chandra-Suryadevara/Square-Sprint'">
                 Github
               </button>
             </div>
           </div>
-          
           <div class="details-container color-container">
             <div class="article-container">
-              <img
-                src="./assets/gif/car.gif"
-                alt="Project 3"
-                class="project-img"
-                
-              />
+              <img src="./assets/gif/car.gif" alt="Project 3" class="project-img" />
             </div>
             <h2 class="experience-sub-title project-title">CVisionHub</h2>
             <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Chandra-Suryadevara/CVisionHub'"
-              >
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Chandra-Suryadevara/CVisionHub'">
                 Github
               </button>
             </div>
           </div>
-         
         </div>
-      </div>
-      <div class="experience-details-container">
+        </div>
+        <!-- Second set of projects (to be shown in a slide) -->
+        <div class="about-containers4">
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
-              <img
-            src="./assets/gif/deep.gif"
-            alt="Project 3"
-            class="project-img"
-            
-              />
+              <img src="./assets/gif/deep.gif" alt="Project 4" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">DeepLearningHub</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Chandra-Suryadevara/DeepLearningHub'">
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/gif/stock.gif" alt="Project 5" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Stock Market Prediction Bot</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Chandra-Suryadevara/STOCK-TRADING-PREDICTION-BOT'">
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/gif/Robot.gif" alt="Project 6" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Robotic Arm</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Chandra-Suryadevara/Robotic-Arm'">
+                Github
+              </button>
+            </div>
+          </div>
         </div>
-        <h2 class="experience-sub-title project-title">DeepLearningHub</h2>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2 project-btn"
-            onclick="location.href='https://github.com/Chandra-Suryadevara/DeepLearningHub'"
-          >
-            Github
-          </button>
-        </div>
-      </div>
-      <div class="details-container color-container">
-        <div class="article-container">
-          <img
-            src="./assets/gif/stock.gif"
-            alt="Project 1"
-            class="project-img"
-          />
-        </div>
-        <h2 class="experience-sub-title project-title">Stock Market Prediction Bot</h2>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2 project-btn"
-            onclick="location.href='https://github.com/Chandra-Suryadevara/STOCK-TRADING-PREDICTION-BOT'"
-          >
-            Github
-          </button>
-        </div>
-      </div>
-      <div class="details-container color-container">
-        <div class="article-container">
-          <img
-            src="./assets/gif/Robot.gif"
-            alt="Project 2"
-            class="project-img"
-          />
-        </div>
-        <h2 class="experience-sub-title project-title">Robotic Arm</h2>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2 project-btn"
-            onclick="location.href='https://github.com/Chandra-Suryadevara/Robotic-Arm'"
-          >
-            Github
-          </button>
         </div>
       </div>
-      </div>
-      </div>
+    </section>
+    
+    
       
       <img
         src="./assets/logo/arrow.png"
@@ -429,6 +397,13 @@
         class="icon arrow"
         onclick="location.href='./#contact'"
       />
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
     </section>
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
