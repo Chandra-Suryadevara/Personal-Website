@@ -199,6 +199,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 95vh;
+  
 }
 
 .section__text {
@@ -356,6 +357,12 @@ section {
   position: absolute;
   right: -5rem;
   bottom: 1rem;
+}
+
+.arrow2 {
+  position: absolute;
+  right: 5rem;
+  bottom: 4rem;
 }
 
 .text-container{
