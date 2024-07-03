@@ -433,6 +433,8 @@ section {
 
 
 
+
+
 .article-container {
   display: flex;
   text-align: initial;
@@ -507,6 +509,13 @@ article .icon {
   color: black;
   border-color: rgb(163, 163, 163);
 }
+
+.about-containers4{
+gap: 2rem;
+margin-bottom: 2rem;
+display: none;
+}
+
 
 /* CONTACT */
 

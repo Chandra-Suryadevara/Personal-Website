@@ -40,7 +40,27 @@ function toggleMenu() {
   
 
 
-
+  const slideshowImages = document.querySelectorAll(".about-containers4");
+  const nextImageDelay = 3000;
+  let currentImageCounter = 0;
+  
+  // Show the initial image
+  slideshowImages[currentImageCounter].style.display = "flex";
+  
+  setInterval(nextImageWithFade, nextImageDelay);
+  
+  function nextImageWithFade() {
+      // Hide the current image
+      slideshowImages[currentImageCounter].style.display = "none";
+  
+      // Increment counter to show the next image
+      currentImageCounter = (currentImageCounter + 1) % slideshowImages.length;
+  
+      // Display the next image
+      slideshowImages[currentImageCounter].style.display = "flex";
+      
+  }
+  
 
 
 
